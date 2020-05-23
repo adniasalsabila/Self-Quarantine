@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "416250272603",
+    "firebase_url": "https://side-project-adnia.firebaseio.com",
+    "project_id": "side-project-adnia",
+    "storage_bucket": "side-project-adnia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416250272603:android:6a855773658165d053987e",
+        "android_client_info": {
+          "package_name": "org.d3if4133.side_project_adnia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416250272603-qa3uubn91rkm41tg7gidhei174ahon3p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.d3if4133.side_project_adnia",
+            "certificate_hash": "294d96d59e727ddc52ed28e06eeb730a633e81c1"
+          }
+        },
+        {
+          "client_id": "416250272603-2sge8jphcu39h1dol7q446pd77kviaov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWEirN8fufCDwy3dg7T5KW3tkeBxh51Aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416250272603-2sge8jphcu39h1dol7q446pd77kviaov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

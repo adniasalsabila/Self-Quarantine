@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="org.d3if4133.side_project_adnia.fragment.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_editTrack"
+            app:destination="@id/editTrack" />
+        <action
+            android:id="@+id/action_homeFragment_to_tambahTrackFragment"
+            app:destination="@id/tambahTrackFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editTrack"
+        android:name="org.d3if4133.side_project_adnia.fragment.EditTrack"
+        android:label="EditTrack" >
+        <action
+            android:id="@+id/action_editTrack_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tambahTrackFragment"
+        android:name="org.d3if4133.side_project_adnia.fragment.TambahTrackFragment"
+        android:label="TambahTrackFragment" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="org.d3if4133.side_project_adnia.MainActivity"
+        android:label="MainActivity" />
+    <fragment
+        android:id="@+id/gejalaFragment"
+        android:name="org.d3if4133.side_project_adnia.fragment.GejalaFragment"
+        android:label="GejalaFragment" />
+</navigation>

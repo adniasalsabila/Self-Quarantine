@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="230dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin"
+    android:background="@color/colorWhite"
+    card_view:cardCornerRadius="10dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="210dp"
+        android:layout_height="85dp"
+        android:layout_margin="@dimen/margin"
+        >
+
+        <ImageView
+            android:id="@+id/img_view"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerVertical="true"
+             />
+
+        <TextView
+            android:id="@+id/txt_highFever"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="1dp"
+            android:layout_toRightOf="@id/img_view"
+            android:text="High Fever"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_highFever"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="1dp"
+            android:layout_toRightOf="@id/img_view"
+            android:text="Suhu tubuh diatas 38 derajat Celcius" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Self Quarantine</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buat_diary">Buat</string>
+    <string name="tuliskan_cerita">Tuliskan Kondisi</string>
+    <string name="hapus_track">Hapus Track</string>
+    <string name="lihat_symp">Cek Gejala</string>
+    <string name="tanggal">Jumat, 17 Januari 2020</string>
+    <string name="text_message">Sehat</string>
+    <string name="null_message">Kondisi harus diisi</string>
+    <string name="success_insert">Berhasil melaporkan kondisi</string>
+    <string name="success_update">Berhasil update kondisi</string>
+    <string name="success_remove">Berhasil hapus kondisi</string>
+    <string name="insert">insert</string>
+    <string name="text_info">Dark theme</string>
+    <string name="gejala_covidbaru">Gejala Covid-19</string>
+    <string name="demam">Demam</string>
+    <string name="det_demam">suhu tubuh di atas 38 derajat Celsius</string>
+    <string name="batuk">Batuk</string>
+    <string name="det_sesak">Kondisi kesulitan bernafas dimana perasaan perasaan seperti tercekik dan dada terasa sempit</string>
+    <string name="det_batuk">Batuk kering</string>
+    <string name="demam_img">Demam</string>
+    <string name="sesak_napas">Sesak Napas</string>
+    <string name="meninggal">Meninggal</string>
+    <string name="sembuh">Sembuh</string>
+    <string name="ket_konfirmasi">0</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="ket_meninggal">0</string>
+    <string name="ket_sembuh">0</string>
+    <string name="hi_welcome">Hi, Welcome</string>
+    <string name="ket_app">Aplikasi ini akan membantu anda melakukan Karantina Mandiri</string>
+    <string name="syarat_karantina">Syarat Karantina</string>
+    <string name="ket_getstart">Lagi Karantina Mandiri? \nAyo, Catat Kondisi Karantinamu</string>
+    <string name="get_started">Get Started</string>
+    <string name="gejala_covid">Gejala Covid-19</string>
+    <string name="view_all">View All</string>
+    <string name="title_kasus">Update Kasus Covid di Indonesia</string>
+    <string name="self_quarantine">Self Quarantine</string>
+    <string name="det_track">Catat kondisi anda saat melakukan kamu saat melakukan karantina mandiri</string>
+
+</resources>
